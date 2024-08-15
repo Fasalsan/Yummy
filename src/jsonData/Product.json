@@ -1,0 +1,41 @@
+
+[
+    {
+        "img": "https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-1.png",
+        "title":"Magnam Tiste",
+        "content":"Lorem, deren, trataro, filede, nerada",
+        "price":"5.90"
+    },
+    {
+        "img": "https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-2.png",
+        "title":"Aut Luia",
+        "content":"Lorem, deren, trataro, filede, neradat",
+         "price":"15.80"
+    
+    },
+    {
+        "img": "https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-3.png",
+        "title":"Est Eligendi",
+        "content":"Lorem, deren, trataro, filede, nerada",
+        "price":"8.95"
+     
+    },
+    {
+        "img": "https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-4.png",
+        "title":"Eos Luibusdam",
+        "content":"Lorem, deren, trataro, filede, nerada",
+        "price":"12.95"
+    },
+    {
+        "img": "https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-5.png",
+        "title":"Eos Luibusdam",
+        "content":"Lorem, deren, trataro, filede, nerada",
+        "price":"19.95"
+    },
+    {
+        "img": "https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-6.png",
+        "title":"Laboriosam Direva",
+        "content":"Lorem, deren, trataro, filede, nerada",
+        "price":"3.95"
+    }
+]

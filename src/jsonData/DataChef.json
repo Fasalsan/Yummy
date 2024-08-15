@@ -1,0 +1,21 @@
+
+[
+    {
+        "img":"https://www.onlinedegree.com/wp-content/uploads/2016/11/master_chef.jpg",
+        "name":"Walter White",
+        "role":"Master Chef",
+        "title":"Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate."
+    },
+    {
+        "img":"https://img.freepik.com/free-photo/portrait-smiling-chef-uniform_329181-675.jpg",
+        "name":"Sarah Jhonson",
+        "role":"Patissier",
+        "title":"Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate."
+    },
+    {
+        "img":"https://www.escoffier.edu/wp-content/uploads/2022/03/Chef-in-uniform-posing-for-a-photo-in-a-kitchen-1400.jpg",
+        "name":"William Anderson",
+        "role":"Cookei",
+        "title":"Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate."
+    }
+]
