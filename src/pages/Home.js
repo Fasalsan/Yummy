@@ -4,6 +4,7 @@ import { FaPlayCircle } from "react-icons/fa";
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import AOS from 'aos'
 import "aos/dist/aos.css";
+import develop from '../component/imgs/developer-dribbble.gif'
 
 export default function Home() {
 
@@ -19,9 +20,8 @@ export default function Home() {
   })
 
   return (
-    // <div id="home" className="w-full bg-[#f2f2f2] ">
-    <div id="home" className="w-full  ">
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-4 px-[30px] md:px-[90px] w-full items-center h-screen">
+    <div id="home" >
+      <div className="flex md:flex-row flex-col-reverse md:justify-between items-center h-screen md:px-28 px-7 pb-12">
         <div className="flex flex-col gap-5 " data-aos="fade-right">
           <h1 className="text-[20px] md:text-[40px] font-bold text-red-700 pt-16 md:pt-0">{text}<Cursor cursorColor="red" /> </h1>
           <h1 className="text-gray-400">Food is symbolic of love when words are inadequate</h1>
@@ -30,10 +30,8 @@ export default function Home() {
             <button className="border border-red-600 px-7 rounded-lg py-2 flex items-center gap-3 hover:bg-red-600 hover:text-white"><FaPlayCircle />Wacht Video</button>
           </div>
         </div>
-        <div data-aos="zoom-in">
-          <img className="md:h-[500px]" src={food} alt="" />
-
-  
+        <div data-aos="zoom-in" className="md:pt-12 ">
+          <img className="md:w-[450px] w-[400]" src={food} alt="" />
         </div>
       </div>
     </div>

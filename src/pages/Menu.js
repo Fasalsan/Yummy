@@ -22,7 +22,7 @@ const tab = [
 
 export default function Menu() {
   return (
-    <div id="menu">
+    <div id="menu" className="bg-green-700">
       <div className="w-full h-auto bg-[#f2f2f2]">
         <div className="flex flex-col justify-center items-center p-6" data-aos="zoom-in-up">
           <h1 className="uppercase text-[20px] font-semibold" data-aos="fade-right">our menu</h1>

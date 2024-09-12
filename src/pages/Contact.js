@@ -6,8 +6,7 @@ import { IoTimeOutline } from "react-icons/io5";
 
 export default function Contact() {
   return (
-    <div className="md:px-[100px] py-[20px]" id="contact">
-
+    <div  id="contact">
       <div className="flex flex-col gap-7 w-full">
         <div>
           <div className="flex flex-col justify-center items-center p-6">
@@ -16,7 +15,7 @@ export default function Contact() {
           </div>
 
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4" >
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 px-4" >
 
             <div className="flex gap-3 bg-white px-4 py-7 w-full rounded-lg drop-shadow-lg hover:drop-shadow-xl cursor-pointer " data-aos="fade-right">
               <div className="bg-red-700 p-3  w-[50px] h-[50px] rounded-full flex items-center justify-center">

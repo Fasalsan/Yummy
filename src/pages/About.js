@@ -4,24 +4,13 @@ import food from '../component/imgs/food.jpg'
 import { BsCheckCircleFill } from "react-icons/bs";
 import { BsChevronRight } from "react-icons/bs";
 import DataAbout from '../jsonData/DataAbout.json'
-import CountUp from "react-countup";
 
 export default function About() {
 
   console.log(DataAbout)
   return (
-    <div id="about">
-      <div className="w-full h-auto bg-white " data-aos="zoom-in-up">
-
-        <CountUp
-          className="account-balance"
-          start={0}
-          end={100}
-          duration={5}
-          useEasing={true}
-          separator=","
-        />
-
+    <div id="about" >
+      <div className="w-full " data-aos="zoom-in-up">
         <div className="" >
           <h1 className="uppercase flex p-6 justify-center font-semibold text-2xl font-serif" data-aos="fade-right">about us</h1>
           <h1 className="uppercase  flex justify-center font-semibold text-xl" data-aos="fade-left">Lern more about us</h1>

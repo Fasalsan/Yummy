@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function BookingTable() {
     return (
-        <div>
-            <div className="w-full bg-white">
+        <div >
+            <div className="w-full bg-yellow-300">
                 <div className="flex flex-col justify-center items-center p-6">
                     <h1 className="uppercase text-[20px] font-semibold" data-aos="fade-right">Book A Table</h1>
                     <h1 className="text-[20px] md:text-3xl py-3" data-aos="fade-left">Book Your <span className="text-red-700">Stay With Us</span></h1>
@@ -11,7 +11,7 @@ export default function BookingTable() {
                 <div className="md:px-[100px] flex gap-4" data-aos="zoom-in-up">
                     <div className="flex md:flex-row flex-col gap-2 w-full bg-gray-100 ">
                         <div >
-                            <img className="w-[700px] h-[500px]" src="https://thebohobrideguide.com/new_blog_images/5348129706/mceu_5022688411664766364954.jpg" alt="" />
+                            <img className="w-full h-[500px]" src="https://thebohobrideguide.com/new_blog_images/5348129706/mceu_5022688411664766364954.jpg" alt="" />
                         </div>
                         <div className="md:p-7 w-full">
                             <div className="flex flex-col gap-3 justify-center">

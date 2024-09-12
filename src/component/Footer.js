@@ -6,7 +6,7 @@ import { FaFacebook, FaInstagramSquare, FaTiktok, FaTelegram } from "react-icons
 
 export default function Footer() {
     return (
-        <div className='bg-white flex flex-col gap-4 md:px-[100px] px-4 py-[20px]'  data-aos="zoom-in">
+        <div className='bg-white flex flex-col gap-4 md:px-[100px] px-4 py-[20px]' data-aos="zoom-in">
 
             <div className="flex md:flex-row flex-col gap-7 md:ga-4 w-full justify-between  py-12 border-b">
                 <div className='flex gap-3 ' data-aos="zoom-in">
@@ -32,8 +32,8 @@ export default function Footer() {
                     </div>
 
                 </div>
- 
-                <div className='flex gap-3 '  data-aos="zoom-in">
+
+                <div className='flex gap-3 ' data-aos="zoom-in">
                     <MdAccessTimeFilled className='text-2xl text-red-700' />
                     <div className='flex flex-col gap-3 text-black'>
                         <label className='text-lg font-medium' htmlFor="">
@@ -46,7 +46,7 @@ export default function Footer() {
 
                 </div>
 
-                <div className='flex gap-3 '  data-aos="zoom-in">
+                <div className='flex gap-3 ' data-aos="zoom-in">
                     <FaLocationDot className='text-2xl text-red-700' />
                     <div className='flex flex-col gap-3 text-black'>
                         <label className='text-lg font-medium' htmlFor="">Follow Us</label>
@@ -68,7 +68,7 @@ export default function Footer() {
             </div>
 
             <div className='text-white'>
-                <div className='flex justify-center py-7'  data-aos="zoom-in">
+                <div className='flex justify-center py-7' data-aos="zoom-in">
                     <div className='flex flex-col gap-3 justify-center items-center text-black'>
                         <label htmlFor="">&copy; Copyright <span className='font-bold'>Yummy</span> All Rights Reserved</label>
                         <p>Designed by <span className='text-red-700 font-bold'>Fasal_SAN</span></p>

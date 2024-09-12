@@ -13,7 +13,7 @@ import Headroom from 'react-headroom';
 
 
     return (
-      <div>
+      <div className='w-full'>
         <Headroom>
           <Navbar />
         </Headroom>
@@ -21,7 +21,7 @@ import Headroom from 'react-headroom';
           <Home />
           <About />
           <Menu />
-          <Chefs />
+          {/* <Chefs /> */}
           <Contact />
           <Footer />
         </div>

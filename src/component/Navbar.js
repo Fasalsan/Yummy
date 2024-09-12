@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import { Link } from 'react-router-dom';
+import logo from '../component/imgs/yummy.png'
 
 const nav = [
     {
@@ -32,17 +32,15 @@ export default function Navbar() {
     return (
         <div>
             <nav className='bg-white shadow-lg w-full fixed top-0 left-0 md:px-[120px] px-7 z-40'>
-                <div className='md:flex items-center justify-between bg-white py-4 md:py-4'>
+                <div className='md:flex items-center justify-between bg-white '>
                     <div className='font-bold text-2xl cursor-pointer text-red-700'>
-                        <a href='/'>
-                            FAIFAI
-                        </a>
+                        <img src={logo} alt="" className='md:w-[90px] w-[60px] py-2'/>
                     </div>
 
-                    <div onClick={() => setIsOpen(!isOpen)} className='text-3xl absolute right-7 top-5 cursor-pointer md:hidden text-red-700'>{isOpen ? <IoMdClose /> : <RxHamburgerMenu />}
+                    <div onClick={() => setIsOpen(!isOpen)} className='text-3xl absolute right-7 top-6 cursor-pointer md:hidden text-red-700'>{isOpen ? <IoMdClose /> : <RxHamburgerMenu />}
                     </div>
 
-                    <ul className={`md:flex md:items-center md:pb-0 pb-7 absolute md:static bg-white md:z-auto z-[-1] left-0 md:w-auto w-full md:pl-0 pl-12 duration-500 ease-in ${isOpen ? 'top-18' : 'left-[-490px]'}`}>
+                    <ul className={`md:flex md:items-center md:pb-0 pb-7 absolute md:static bg-white md:z-auto z-[-1] left-0 md:w-auto w-full md:pl-0 px-7 duration-500 ease-in ${isOpen ? 'top-18' : 'left-[-700px]'}`}>
                         {
                             nav.map((data) => (
                                 <li key={data.title} className='md:ml-8 text-lg md:my-0 my-5 hover:text-black'>
